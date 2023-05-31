@@ -1,0 +1,186 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,200&family=Open+Sans:wght@300&display=swap'); */
+.signup_section {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.logo_card {
+  background: linear-gradient(
+      355.97deg,
+      #006d24 -3.02%,
+      rgba(0, 109, 36, 0) 31.56%
+    ),
+    radial-gradient(
+      117.38% 117.38% at 70.02% -1.13%,
+      #d8ffe5 95.28%,
+      rgba(216, 255, 229, 0) 100%
+    );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  border-radius: 10px;
+}
+.gender-radio {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.card-header {
+  background-color: white;
+  text-align: center;
+}
+
+.create-new-user {
+  text-align: center;
+  color: #00541c;
+  background-color: white;
+}
+
+/* select input */
+select {
+  cursor: pointer;
+}
+
+.form-content {
+  background: #ffffff;
+  border: 1px solid rgba(178, 178, 178, 0.6);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+/* agree to terms and condition */
+.agree_agric360 {
+  color: #00541c;
+  font-weight: 500;
+  font-size: 14px;
+}
+/* sign up button */
+.submit_btn {
+  background: #00541c;
+  color: white;
+  border-radius: 15px;
+}
+.submit_btn:hover {
+  background: linear-gradient(
+      355.97deg,
+      #006d24 -3.02%,
+      rgba(0, 109, 36, 0) 31.56%
+    ),
+    radial-gradient(
+      117.38% 117.38% at 70.02% -1.13%,
+      #d8ffe5 95.28%,
+      rgba(216, 255, 229, 0) 100%
+    );
+  color: #00541c !important;
+  border: 2px solid #00541c;
+  border-radius: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.redirect_link {
+  color: #00541c !important;
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+.redirect_link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Sign in page style */
+.forgot_psw {
+  text-decoration: none;
+  font-weight: 400;
+  color: #009933;
+}
+.forgot_psw:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  transition: 0.5s;
+  color: #009933;
+}
+
+.signin_method_section {
+  display: flex;
+  font-size: 14px;
+}
+.signin_mode {
+  cursor: pointer;
+  transition: border 0.5s ease-out;
+}
+.border_animate::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #009933;
+  transition: width 0.5s;
+}
+.border_animate:hover::after {
+  width: 100%;
+}
+.active_signin_mode {
+  border-bottom: 5px solid #009933;
+}
+
+/* Forgot password style */
+.forgot_password_section {
+  height: 100vh;
+  background-color: #d8ffe5;
+}
+.forgot_password-text {
+  color: #006d24;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otp_img {
+  height: 60vh;
+  background-image: url(../../assets//otp\ image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.otp_input {
+  margin: 5px;
+  height: 35px;
+  width: 60px;
+  border: none;
+  border-bottom: 1px solid #00541c;
+  text-align: center;
+}
+.otp_input:focus {
+  outline: none !important;
+}
+
+.reset_img {
+  height: 60vh;
+  background-image: url(../../assets/reset_password.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.resend_otp {
+  cursor: pointer;
+  color: #006d24;
+}
+
+.reset_password_input {
+  background-color: #e6f5eb;
+}
+
+@media screen and (max-width: 575px) {
+  .agro_logo {
+    width: 25%;
+    margin: auto;
+  }
+  .otp_img {
+    width: 80%;
+  }
+  /* .signin_method{
+        flex-direction: column;
+    } */
+}

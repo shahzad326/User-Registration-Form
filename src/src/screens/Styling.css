@@ -1,0 +1,20 @@
+.admin-radio {
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  text-align: right;
+}
+.custom-radio .custom-control-inline .custom-control-label::before,
+.custom-radio .custom-control-inline .custom-control-label::after {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  content: '';
+}
